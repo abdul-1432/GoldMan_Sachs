@@ -34,15 +34,15 @@ python crack.py $hash $dictionary
 
 * To crack a password hash using a brute force attack, you can use the following command:
 
-
+```bash
 python bruteforce.py $hash
-
+```
 
 * To crack a password hash using a rainbow table, you can use the following command:
 
-
+```bash
 python rainbowtable.py $hash
-
+```
 
 ## Conclusion
 This repository contains a collection of tools and scripts for cracking leaked password databases. The tools are written in Python and are available under the MIT license.
